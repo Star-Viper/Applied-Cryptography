@@ -34,13 +34,11 @@ def decrypt(text, key1, key2):
     print(result)
 
 while True:
-    print("Affine Cipher Menu:")
     print("1. Encryption")
     print("2. Decryption")
     print("3. Exit")
-
-    choice = input("Enter your choice: ")
     
+    choice = input("Enter your choice: ")
     if choice == '1':
         plain_text = input("Enter the plain text: ")
         key1 = int(input("Enter key 1: "))
