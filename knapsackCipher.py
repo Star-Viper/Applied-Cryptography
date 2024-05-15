@@ -49,8 +49,8 @@ if len(message) != n:
     print("Invalid message length. It should have the same length as the superincreasing sequence.")
 
 encrypted = encrypt(message, public_key)
-print("Encrypted message:", encrypted)
+print("Encrypted message: ", encrypted)
 
 decrypted = decrypt(encrypted, superincreasing_seq, multiplier, modulus)
-print("Decrypted message:", decrypted)
+print("Decrypted message: ", decrypted)
 
